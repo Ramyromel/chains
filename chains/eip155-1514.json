@@ -1,0 +1,23 @@
+{
+  "name": "Data Network",
+  "chain": "DATA",
+  "rpc": ["https://mainnet.datarpc.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DATA",
+    "symbol": "DATA",
+    "decimals": 18
+  },
+  "infoURL": "https://datafdn.org/",
+  "icon": "data",
+  "shortName": "data",
+  "chainId": 1514,
+  "networkId": 1514,
+  "explorers": [
+    {
+      "name": "blockscout",
+      "url": "https://datanetscan.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
