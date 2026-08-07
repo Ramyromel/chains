@@ -3392,6 +3392,19 @@
   "faucets": ["https://zkevm.cronos.org/faucet"],
   "infoURL": "https://docs-zkevm.cronos.org"
 }, {
+  "name": "NetX Mainnet",
+  "chainId": 287,
+  "shortName": "netx",
+  "networkId": 287,
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.netxscan.io"],
+  "faucets": [],
+  "infoURL": "https://netx.world/"
+}, {
   "name": "Boba Network",
   "chainId": 288,
   "shortName": "Boba",
@@ -4821,6 +4834,19 @@
   "rpc": ["https://rpc.filenova.org"],
   "faucets": [],
   "infoURL": "https://filenova.org"
+}, {
+  "name": "NetX Testnet",
+  "chainId": 587,
+  "shortName": "netx-testnet",
+  "networkId": 587,
+  "nativeCurrency": {
+    "name": "NetX Token",
+    "symbol": "NETX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.netxscan.io"],
+  "faucets": ["https://netx.world/faucet/"],
+  "infoURL": "https://netx.world/"
 }, {
   "name": "Metis Stardust Testnet",
   "chainId": 588,
@@ -13723,7 +13749,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://rpc.arrowrpc.com"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -15820,17 +15846,17 @@
   "faucets": [],
   "infoURL": "https://www.meverse.sg"
 }, {
-  "name": "Rome Palatine",
+  "name": "Rome Rubicon Mainnet",
   "chainId": 7531,
   "shortName": "rome-palatine",
   "networkId": 7531,
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://palatine.romeprotocol.xyz", "https://palatine2.romeprotocol.xyz"],
-  "faucets": [],
+  "rpc": ["https://rubicon.mainnet.romeprotocol.xyz"],
+  "faucets": ["https://app.mainnet.romeprotocol.xyz"],
   "infoURL": "https://rome.builders"
 }, {
   "name": "Rome Mainnet 0 Aventine",
@@ -15838,12 +15864,12 @@
   "shortName": "rome-mainnet-0-aventine",
   "networkId": 7532,
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://aventine-i.mainnet-0.romeprotocol.xyz"],
-  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://rome.builders"
 }, {
   "name": "Cyber Mainnet",
@@ -27018,12 +27044,12 @@
   "shortName": "rome-testnet-caelian",
   "networkId": 121215,
   "nativeCurrency": {
-    "name": "RSOL",
-    "symbol": "RSOL",
+    "name": "USDC",
+    "symbol": "USDC",
     "decimals": 18
   },
-  "rpc": ["https://caelian-i.testnet.romeprotocol.xyz"],
-  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "rpc": [],
+  "faucets": [],
   "infoURL": "https://rome.builders"
 }, {
   "name": "Fushuma",
