@@ -7862,6 +7862,14 @@
     "format": "png"
   }]
 }, {
+  "name": "eav7",
+  "icons": [{
+    "url": "ipfs://QmWYAX1nqKS2wpsMKcKpPEiJG1HDV2J9ysyz5Uz1knumDd",
+    "width": 512,
+    "height": 504,
+    "format": "png"
+  }]
+}, {
   "name": "movoscan",
   "icons": [{
     "url": "ipfs://QmdFJMdnTvu4adiMERMP7B5ZZDwgiPmU3kU1qrUFdvHmUY",
@@ -8203,6 +8211,14 @@
     "url": "ipfs://QmZsXYnR5C25v99xZs7Zzk5UUwiCidpGwSzejb21M66fuT",
     "width": 474,
     "height": 474,
+    "format": "png"
+  }]
+}, {
+  "name": "pharos",
+  "icons": [{
+    "url": "ipfs://bafkreidewes2nj6dsack453hb4sysvdfeif3yw4rvpv465wdhyvs7zcjha",
+    "width": 286,
+    "height": 358,
     "format": "png"
   }]
 }, {

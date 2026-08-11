@@ -723,7 +723,7 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
+  "rpc": ["https://bsc-dataseed1.bnbchain.org", "https://bsc-dataseed2.bnbchain.org", "https://bsc-dataseed3.bnbchain.org", "https://bsc-dataseed4.bnbchain.org", "https://bsc-dataseed1.defibit.io", "https://bsc-dataseed2.defibit.io", "https://bsc-dataseed3.defibit.io", "https://bsc-dataseed4.defibit.io", "https://bsc-dataseed1.ninicoin.io", "https://bsc-dataseed2.ninicoin.io", "https://bsc-dataseed3.ninicoin.io", "https://bsc-dataseed4.ninicoin.io", "https://bsc-rpc.publicnode.com", "https://bsc-rpc-public.chainpulse.cc", "wss://bsc-rpc.publicnode.com", "wss://bsc-ws-node.nariox.org"],
   "faucets": [],
   "infoURL": "https://www.bnbchain.org/en"
 }, {
@@ -1256,7 +1256,7 @@
     "symbol": "tBNB",
     "decimals": 18
   },
-  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet-rpc.publicnode.com", "wss://bsc-testnet-rpc.publicnode.com"],
+  "rpc": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545", "https://data-seed-prebsc-2-s1.bnbchain.org:8545", "https://data-seed-prebsc-1-s2.bnbchain.org:8545", "https://data-seed-prebsc-2-s2.bnbchain.org:8545", "https://data-seed-prebsc-1-s3.bnbchain.org:8545", "https://data-seed-prebsc-2-s3.bnbchain.org:8545", "https://bsc-testnet-rpc.publicnode.com", "https://bsc-rpc-public.chainpulse.cc/testnet", "wss://bsc-testnet-rpc.publicnode.com"],
   "faucets": ["https://testnet.bnbchain.org/faucet-smart"],
   "infoURL": "https://www.bnbchain.org/en"
 }, {
@@ -8942,6 +8942,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://horizen.io/"
+}, {
+  "name": "Pharos Mainnet",
+  "chainId": 1672,
+  "shortName": "pharos",
+  "networkId": 1672,
+  "nativeCurrency": {
+    "name": "PharosCoin",
+    "symbol": "PROS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pharos.xyz"],
+  "faucets": [],
+  "infoURL": "https://pharos.xyz"
 }, {
   "name": "Mint Testnet",
   "chainId": 1686,
@@ -24659,6 +24672,19 @@
   "rpc": ["https://v1.mainnet.godwoken.io/rpc"],
   "faucets": [],
   "infoURL": "https://www.nervos.org"
+}, {
+  "name": "EAV7 EAVM",
+  "chainId": 72020,
+  "shortName": "eav7",
+  "networkId": 72020,
+  "nativeCurrency": {
+    "name": "EAV7",
+    "symbol": "EAV7",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.eavscan.com"],
+  "faucets": [],
+  "infoURL": "https://eavscan.com"
 }, {
   "name": "Nexera Testnet",
   "chainId": 72080,
