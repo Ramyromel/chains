@@ -34482,7 +34482,7 @@
     "symbol": "ACCESS",
     "decimals": 18
   },
-  "rpc": ["https://accesschain.org/rpc"],
+  "rpc": ["https://accesschain.org/rpc", "https://accesschainapp.site/rpc"],
   "faucets": [],
   "infoURL": "https://accesschain.org",
   "explorers": [{
@@ -46931,6 +46931,30 @@
     "standard": "none"
   }]
 }, {
+  "name": "MANORA",
+  "chainId": 221978,
+  "shortName": "mnr",
+  "chain": "MANORA",
+  "networkId": 221978,
+  "icon": "manora",
+  "nativeCurrency": {
+    "name": "Manora",
+    "symbol": "MNR",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.manoracoin.com"],
+  "faucets": [],
+  "explorers": [{
+    "name": "MANORA Explorer",
+    "url": "https://explorer.manoracoin.com",
+    "standard": "EIP3091"
+  }],
+  "infoURL": "https://manoracoin.com",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1"
+  }
+}, {
   "name": "Hydration",
   "chain": "HDX",
   "rpc": ["https://rpc.hydradx.cloud", "wss://rpc.hydradx.cloud", "https://hydration-rpc.n.dwellir.com", "wss://hydration-rpc.n.dwellir.com", "https://rpc.helikon.io/hydradx", "wss://rpc.helikon.io/hydradx", "https://hydration.dotters.network", "wss://hydration.dotters.network", "https://hydration.ibp.network", "wss://hydration.ibp.network", "https://rpc.cay.hydration.cloud", "wss://rpc.cay.hydration.cloud", "https://rpc.parm.hydration.cloud", "wss://rpc.parm.hydration.cloud", "https://rpc.roach.hydration.cloud", "wss://rpc.roach.hydration.cloud", "https://rpc.zipp.hydration.cloud", "wss://rpc.zipp.hydration.cloud", "https://rpc.sin.hydration.cloud", "wss://rpc.sin.hydration.cloud", "https://rpc.coke.hydration.cloud", "wss://rpc.coke.hydration.cloud"],
@@ -58407,6 +58431,45 @@
     "name": "blockscout",
     "url": "https://explorer.flame.dawn-1.astria.org",
     "icon": "blockscout",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "STRATO Mainnet",
+  "chain": "STRATO",
+  "rpc": ["https://app.strato.nexus/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDST",
+    "symbol": "USDST",
+    "decimals": 18
+  },
+  "infoURL": "https://strato.nexus",
+  "shortName": "strato",
+  "chainId": 123354377739506,
+  "networkId": 123354377739506,
+  "explorers": [{
+    "name": "stratoscan",
+    "url": "https://stratoscan.strato.nexus",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "STRATO Helium Testnet",
+  "chain": "STRATO",
+  "rpc": ["https://app.testnet.strato.nexus/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "USDST",
+    "symbol": "USDST",
+    "decimals": 18
+  },
+  "infoURL": "https://strato.nexus",
+  "shortName": "strato-testnet",
+  "chainId": 195049586845898,
+  "networkId": 195049586845898,
+  "status": "incubating",
+  "explorers": [{
+    "name": "stratoscan",
+    "url": "https://stratoscan.testnet.strato.nexus",
     "standard": "EIP3091"
   }]
 }, {
