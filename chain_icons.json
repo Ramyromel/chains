@@ -3918,9 +3918,9 @@
 }, {
   "name": "ggchain",
   "icons": [{
-    "url": "ipfs://bafybeigaegrb7lxyeeclrgjsu5griupp22c2z7sb4caq7x3n3mhqzanu3i",
-    "width": 1024,
-    "height": 1024,
+    "url": "ipfs://bafkreidetwje5zhtnmg7ofvr7ucddywdzaiscg5xmxu7xjbzlwtlnlqa7a",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -6246,6 +6246,14 @@
   "name": "gensyn",
   "icons": [{
     "url": "ipfs://QmVqxZEAxThftDE2kVL7yQrBsU5ymLV39JPdWyaYtuVgzM",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "rphx",
+  "icons": [{
+    "url": "ipfs://QmR4TTqqWubF3zda2ZEy9tAZmjT84sSX6MiJb4jJqkepJk",
     "width": 512,
     "height": 512,
     "format": "png"

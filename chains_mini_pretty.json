@@ -4168,7 +4168,7 @@
     "symbol": "OZO",
     "decimals": 18
   },
-  "rpc": ["https://node1.testnet.ozonechain.io"],
+  "rpc": ["https://node2.testnet.ozonechain.io"],
   "faucets": [],
   "infoURL": "https://ozonechain.io"
 }, {
@@ -17185,6 +17185,19 @@
   "faucets": ["https://testnetapp.hydrachain.org/faucet"],
   "infoURL": "https://hydrachain.org"
 }, {
+  "name": "Garuda Chain Mainnet",
+  "chainId": 8846,
+  "shortName": "garuda",
+  "networkId": 8846,
+  "nativeCurrency": {
+    "name": "Garuda Digital Coin",
+    "symbol": "GDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.garudachain.id", "https://rpc2.garudachain.id"],
+  "faucets": [],
+  "infoURL": "https://garudachain.id"
+}, {
   "name": "MARO Blockchain Mainnet",
   "chainId": 8848,
   "shortName": "maro",
@@ -27259,6 +27272,19 @@
   "rpc": ["https://rpc.tatara.katanarpc.com/"],
   "faucets": [],
   "infoURL": ""
+}, {
+  "name": "RPHX Mainnet",
+  "chainId": 130526,
+  "shortName": "rphx",
+  "networkId": 130526,
+  "nativeCurrency": {
+    "name": "RPHX",
+    "symbol": "RPHX",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rphxscan.com"],
+  "faucets": [],
+  "infoURL": "https://rphxscan.com"
 }, {
   "name": "Odyssey Chain (Testnet)",
   "chainId": 131313,
