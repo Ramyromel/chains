@@ -10302,7 +10302,7 @@
   "name": "Ault Blockchain Mainnet",
   "chain": "AULT",
   "icon": "ault",
-  "rpc": [],
+  "rpc": ["https://main-json-rpc.cloud.aultblockchain.xyz"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -10318,7 +10318,12 @@
   "shortName": "ault",
   "chainId": 904,
   "networkId": 904,
-  "explorers": []
+  "explorers": [{
+    "name": "Ault Mainnet Explorer",
+    "url": "https://ault.explorer.orynt.tech",
+    "standard": "EIP3091",
+    "icon": "ault"
+  }]
 }, {
   "name": "Portal Fantasy Chain",
   "chain": "PF",
@@ -12943,11 +12948,12 @@
   "networkId": 1236,
   "explorers": []
 }, {
-  "name": "AEREDIUM Testnet",
-  "title": "AEREDIUM Testnet",
+  "name": "AEREDIUM Testnet 1",
+  "title": "AEREDIUM Testnet 1",
   "chain": "AER",
-  "rpc": ["https://testnet.rpc.aeredium.io"],
-  "faucets": ["https://aeredium.io/faucet.html"],
+  "status": "deprecated",
+  "rpc": [],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Testnet AER",
     "symbol": "tAER",
@@ -12964,11 +12970,7 @@
   "networkId": 1237,
   "slip44": 1,
   "icon": "aeredium",
-  "explorers": [{
-    "name": "AEREDIUM Testnet Explorer",
-    "url": "https://testnet.explorer.aeredium.io",
-    "standard": "EIP3091"
-  }]
+  "explorers": []
 }, {
   "name": "ARC Mainnet",
   "chain": "ARC",
@@ -18088,6 +18090,33 @@
   "explorers": [{
     "name": "VChain Scan",
     "url": "https://scan.vcex.xyz",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "AEREDIUM Testnet",
+  "title": "AEREDIUM Testnet",
+  "chain": "AER",
+  "rpc": ["https://testnet.rpc.aeredium.io"],
+  "faucets": ["https://aeredium.io/faucet.html"],
+  "nativeCurrency": {
+    "name": "SEAR",
+    "symbol": "SEAR",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://aeredium.io",
+  "shortName": "sea",
+  "chainId": 2237,
+  "networkId": 2237,
+  "slip44": 1,
+  "icon": "aeredium",
+  "explorers": [{
+    "name": "AEREDIUM Testnet Explorer",
+    "url": "https://testnet.explorer.aeredium.io",
     "standard": "EIP3091"
   }]
 }, {
@@ -30814,7 +30843,7 @@
   "name": "Ault Blockchain Testnet",
   "chain": "AULT",
   "icon": "ault",
-  "rpc": [],
+  "rpc": ["https://test-json-rpc.cloud.aultblockchain.xyz"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -30830,7 +30859,12 @@
   "shortName": "ault-testnet",
   "chainId": 10904,
   "networkId": 10904,
-  "explorers": []
+  "explorers": [{
+    "name": "Ault Testnet Explorer",
+    "url": "https://ault-testnet.explorer.orynt.tech",
+    "standard": "EIP3091",
+    "icon": "ault"
+  }]
 }, {
   "name": "Fuse Flash Testnet",
   "chain": "Fuse Flash",
