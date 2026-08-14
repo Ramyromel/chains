@@ -2510,9 +2510,9 @@
 }, {
   "name": "swss",
   "icons": [{
-    "url": "ipfs://bafybeifyn3yb65chgsb2jdjyov5otdzuq6uz433dlmzbdeqg6wh4mwqg7e",
-    "width": 1500,
-    "height": 1500,
+    "url": "ipfs://bafkreifs54njblqxn4d77fcudxzqbaon45pgk4gmmtqe5lnhujkyztgxvu",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -3089,6 +3089,14 @@
     "url": "ipfs://QmdXSyjZvtVPDTLAuYoVU1cuRTEKnY96p65jgcz6wt7pfA",
     "width": 995,
     "height": 984,
+    "format": "png"
+  }]
+}, {
+  "name": "racaille",
+  "icons": [{
+    "url": "ipfs://QmPEVwzEWJ4Pwy9Gb4esjD7umYe4U8Vj7MjmzA6jeYSkfR",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -5130,6 +5138,14 @@
     "url": "ipfs://bafkreiefr7p63cufa53rylql4megu6mbe2fksl45fkbo4jkpt2pyy3q5xm",
     "width": 647,
     "height": 765,
+    "format": "png"
+  }]
+}, {
+  "name": "hyvechain",
+  "icons": [{
+    "url": "ipfs://bafkreigvddwqff43oljt3lftjk3xy3a6pglbpyrngeg6cwwep2vfr26nd4",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -8995,6 +9011,14 @@
     "format": "png"
   }]
 }, {
+  "name": "veri5",
+  "icons": [{
+    "url": "ipfs://bafybeihqekabx2rg2m2crfg3r63fmcngqj5ghk4gucknmr66empihp6bfq",
+    "width": 1024,
+    "height": 1024,
+    "format": "png"
+  }]
+}, {
   "name": "pundiai",
   "icons": [{
     "url": "ipfs://QmUve9vX4k6rtTX5dJZhXTGBGUosFccMZL9E349gdTHNkV",
@@ -9112,6 +9136,14 @@
     "url": "ipfs://QmbCavc5ge8bp2neLuUzDbbZd737kHTN59dFgGDNsZezSD",
     "width": 1200,
     "height": 1200,
+    "format": "png"
+  }]
+}, {
+  "name": "aglais",
+  "icons": [{
+    "url": "ipfs://QmbVscoh7LthwT7U3gyyTErSokYG5SM85EpSETpmHuATwi",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
