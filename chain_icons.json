@@ -687,14 +687,6 @@
     "format": "svg"
   }]
 }, {
-  "name": "xeta",
-  "icons": [{
-    "url": "ipfs://QmWGNfwJ9o2vmKD3E6fjrxpbFP8W5q45zmYzHHoXwqqAoj",
-    "width": 512,
-    "height": 512,
-    "format": "png"
-  }]
-}, {
   "name": "vizing",
   "icons": [{
     "url": "ipfs://QmPgpWfGsAZ5UHekWFR8rioadVe3Wox8idFyeVxuv9N4Vo",
@@ -4044,6 +4036,14 @@
     "format": "png"
   }]
 }, {
+  "name": "garuda",
+  "icons": [{
+    "url": "ipfs://bafkreicnrzbtgdhqbkruyoii3wtuevngdb5dmdy32uer67jx633l5cg4zm",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "zero",
   "icons": [{
     "url": "ipfs://QmWpvBtmDhZSAnRww5ZU6BvEbDbxKEzoyjWcanjc1UBD9X",
@@ -6611,6 +6611,14 @@
     "format": "png"
   }]
 }, {
+  "name": "coinbosa",
+  "icons": [{
+    "url": "ipfs://bafkreiaid7e3fiurx6ubdyjrbzlmrkvvrax5z5gjuoavdgv5dnu4usxb4a",
+    "width": 96,
+    "height": 96,
+    "format": "png"
+  }]
+}, {
   "name": "trump",
   "icons": [{
     "url": "ipfs://QmPFt5rH4hGCdt1L9WT5ZMWfuxvX1Dss7GEB8crjDSm7Xh",
@@ -7569,6 +7577,14 @@
     "width": 250,
     "height": 250,
     "format": "png"
+  }]
+}, {
+  "name": "c8ntinuum",
+  "icons": [{
+    "url": "ipfs://bafkreih2nilinsaclce6atuwgittslht4h7ea6vwedmtanlivmn3in3jk4",
+    "width": 800,
+    "height": 800,
+    "format": "svg"
   }]
 }, {
   "name": "c4ei",
@@ -9585,6 +9601,14 @@
     "width": 500,
     "height": 500,
     "format": "png"
+  }]
+}, {
+  "name": "dffc",
+  "icons": [{
+    "url": "ipfs://QmYhCp5uZj28VaWNFCLfEveBWnk7LnWfmoKsn96vRfCsS5",
+    "width": 1536,
+    "height": 1536,
+    "format": "jpg"
   }]
 }, {
   "name": "delaTestnet",

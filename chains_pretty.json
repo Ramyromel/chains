@@ -28604,7 +28604,8 @@
     "url": "https://explorer.garudachain.id",
     "standard": "EIP3091"
   }],
-  "status": "active"
+  "status": "active",
+  "icon": "garuda"
 }, {
   "name": "MARO Blockchain Mainnet",
   "chain": "MARO Blockchain",
@@ -28772,25 +28773,36 @@
     "standard": "none"
   }]
 }, {
-  "name": "XANAChain",
-  "chain": "XANAChain",
-  "rpc": ["https://mainnet.xana.net/rpc"],
+  "name": "c8ntinuum",
+  "chain": "CTM",
+  "rpc": ["https://rpc.c8ntinuum.com", "https://rpc.c8ntinuum.io", "https://rpc.c8ntinuum.link"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "XETA",
-    "symbol": "XETA",
+    "name": "c8ntinuum",
+    "symbol": "CTM",
     "decimals": 18
   },
-  "infoURL": "https://xanachain.xana.net/",
-  "shortName": "XANAChain",
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }, {
+    "name": "EIP2930"
+  }, {
+    "name": "EIP7702"
+  }],
+  "infoURL": "https://c8ntinuum.com",
+  "shortName": "ctm",
   "chainId": 8888,
   "networkId": 8888,
-  "icon": "xeta",
+  "slip44": 60,
+  "icon": "c8ntinuum",
   "explorers": [{
-    "name": "XANAChain",
-    "url": "https://xanachain.xana.net",
+    "name": "CTMScan",
+    "url": "https://ctmscan.io",
     "standard": "EIP3091"
   }],
+  "status": "active",
   "redFlags": ["reusedChainId"]
 }, {
   "name": "Vyvo Smart Chain",
@@ -35273,6 +35285,26 @@
     "name": "Integra Testnet Blockscout",
     "url": "https://testnet.blockscout.integralayer.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Coinbosa Chain",
+  "chain": "BOSA",
+  "rpc": ["https://explorer.coinbosa.com/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Coinbosa",
+    "symbol": "BOSA",
+    "decimals": 18
+  },
+  "infoURL": "https://coinbosa.com",
+  "shortName": "bosa",
+  "chainId": 26262,
+  "networkId": 26262,
+  "icon": "coinbosa",
+  "explorers": [{
+    "name": "Coinbosa Explorer",
+    "url": "https://explorer.coinbosa.com",
+    "standard": "none"
   }]
 }, {
   "name": "DucatusX Testnet",
@@ -59052,4 +59084,25 @@
     "url": "https://dchain-2716446429837000-1.sagaexplorer.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "DuckFourFourChain",
+  "chain": "DFFC",
+  "icon": "dffc",
+  "rpc": ["https://main-duckchain.zeninhost.xyz", "wss://duckfourfourchain-ws.zeninhost.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "DuckFourFourCoin",
+    "symbol": "DFFC",
+    "decimals": 18
+  },
+  "infoURL": "https://duckfourfourchain.zeninhost.xyz",
+  "shortName": "dffc",
+  "chainId": 2716446429837001,
+  "networkId": 2716446429837001,
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "explorers": []
 }]

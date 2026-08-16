@@ -17393,18 +17393,18 @@
   "faucets": ["https://faucet-testnet.avenium.io"],
   "infoURL": "https://avenium.io"
 }, {
-  "name": "XANAChain",
+  "name": "c8ntinuum",
   "chainId": 8888,
-  "shortName": "XANAChain",
+  "shortName": "ctm",
   "networkId": 8888,
   "nativeCurrency": {
-    "name": "XETA",
-    "symbol": "XETA",
+    "name": "c8ntinuum",
+    "symbol": "CTM",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.xana.net/rpc"],
+  "rpc": ["https://rpc.c8ntinuum.com", "https://rpc.c8ntinuum.io", "https://rpc.c8ntinuum.link"],
   "faucets": [],
-  "infoURL": "https://xanachain.xana.net/"
+  "infoURL": "https://c8ntinuum.com"
 }, {
   "name": "Vyvo Smart Chain",
   "chainId": 8889,
@@ -21344,6 +21344,19 @@
   "rpc": ["https://ormos.integralayer.com/rpc"],
   "faucets": [],
   "infoURL": "https://integralayer.com"
+}, {
+  "name": "Coinbosa Chain",
+  "chainId": 26262,
+  "shortName": "bosa",
+  "networkId": 26262,
+  "nativeCurrency": {
+    "name": "Coinbosa",
+    "symbol": "BOSA",
+    "decimals": 18
+  },
+  "rpc": ["https://explorer.coinbosa.com/rpc"],
+  "faucets": [],
+  "infoURL": "https://coinbosa.com"
 }, {
   "name": "DucatusX Testnet",
   "chainId": 26482,
@@ -35228,4 +35241,17 @@
   "rpc": ["https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"],
   "faucets": [],
   "infoURL": "https://www.dchain.foundation/"
+}, {
+  "name": "DuckFourFourChain",
+  "chainId": 2716446429837001,
+  "shortName": "dffc",
+  "networkId": 2716446429837001,
+  "nativeCurrency": {
+    "name": "DuckFourFourCoin",
+    "symbol": "DFFC",
+    "decimals": 18
+  },
+  "rpc": ["https://main-duckchain.zeninhost.xyz", "wss://duckfourfourchain-ws.zeninhost.xyz"],
+  "faucets": [],
+  "infoURL": "https://duckfourfourchain.zeninhost.xyz"
 }]
