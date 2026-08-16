@@ -1612,6 +1612,14 @@
     "format": "png"
   }]
 }, {
+  "name": "wtc",
+  "icons": [{
+    "url": "ipfs://bafkreicqxwwlqef65b35il2fx2t4pxwz2x6wsp3occu2uv7g4o2eomnqse",
+    "width": 300,
+    "height": 300,
+    "format": "png"
+  }]
+}, {
   "name": "etica",
   "icons": [{
     "url": "ipfs://QmYSyhUqm6ArWyALBe3G64823ZpEUmFdkzKZ93hUUhNKgU",
@@ -4217,6 +4225,14 @@
     "url": "ipfs://bafkreiby27m6esbsjthmknckq5ktsaaj2z6hylzljbsmvx4fgezdra3q4m",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "ynx",
+  "icons": [{
+    "url": "ipfs://bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+    "width": 1254,
+    "height": 1254,
     "format": "png"
   }]
 }, {
@@ -8848,6 +8864,14 @@
     "url": "ipfs://Qmb7oJY9zd9sTzxNNQNTVZQz2hkd1aA94mWm4cvXfJ9QxV",
     "width": 1280,
     "height": 1280,
+    "format": "png"
+  }]
+}, {
+  "name": "shark",
+  "icons": [{
+    "url": "ipfs://QmZqpxKsZwBB7PL36RgYZA6mFQJUB5RyTtYi1zpMZC5VWj",
+    "width": 1000,
+    "height": 1000,
     "format": "png"
   }]
 }, {

@@ -2118,18 +2118,18 @@
   "faucets": [],
   "infoURL": "https://docs.omni.network"
 }, {
-  "name": "Omni Testnet (Deprecated)",
+  "name": "Farm Chain",
   "chainId": 165,
-  "shortName": "omni_testnet_deprecated",
+  "shortName": "fmc",
   "networkId": 165,
   "nativeCurrency": {
-    "name": "Omni",
-    "symbol": "OMNI",
+    "name": "Farm Coin",
+    "symbol": "FMC",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
-  "infoURL": "https://docs.omni.network/"
+  "infoURL": "https://fmcscan.com"
 }, {
   "name": "Nomina",
   "chainId": 166,
@@ -15144,6 +15144,19 @@
   "faucets": [],
   "infoURL": ""
 }, {
+  "name": "YNX Testnet",
+  "chainId": 6423,
+  "shortName": "ynxtest",
+  "networkId": 6423,
+  "nativeCurrency": {
+    "name": "YNXT",
+    "symbol": "YNXT",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.ynxweb4.com"],
+  "faucets": ["https://www.ynxweb4.com/dapp/faucet"],
+  "infoURL": "https://ynxweb4.com"
+}, {
   "name": "MIZUHIKI Testnet Awaji",
   "chainId": 6497,
   "shortName": "awaji",
@@ -25804,6 +25817,19 @@
   "faucets": [],
   "infoURL": "https://app.omnibazaar.com"
 }, {
+  "name": "Shark Network",
+  "chainId": 88118,
+  "shortName": "shark",
+  "networkId": 88118,
+  "nativeCurrency": {
+    "name": "Shark",
+    "symbol": "SHARK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.rpcshark.com"],
+  "faucets": [],
+  "infoURL": "https://swapshark.net"
+}, {
   "name": "InoAi",
   "chainId": 88559,
   "shortName": "INO",
@@ -27480,6 +27506,19 @@
   "rpc": ["https://rpcmainnet.ic-plaza.org/"],
   "faucets": [],
   "infoURL": "https://docs.ic-plaza.org/"
+}, {
+  "name": "WheatCoin Mainnet",
+  "chainId": 153043,
+  "shortName": "wheat",
+  "networkId": 153043,
+  "nativeCurrency": {
+    "name": "WheatCoin",
+    "symbol": "WHEAT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mizodevelopment.com"],
+  "faucets": [],
+  "infoURL": "https://itzlalpekhlua.github.io/WheatCoin-Token/"
 }, {
   "name": "Odyssey Chain Mainnet",
   "chainId": 153153,
@@ -31497,6 +31536,19 @@
   "rpc": ["https://mainnet.coti.io/rpc"],
   "faucets": [],
   "infoURL": "https://coti.io/"
+}, {
+  "name": "Winmar Tech Chain",
+  "chainId": 2640162,
+  "shortName": "wtc",
+  "networkId": 2640162,
+  "nativeCurrency": {
+    "name": "Winmar Tech Chain",
+    "symbol": "WTC",
+    "decimals": 18
+  },
+  "rpc": ["https://winmar.tech/rpc"],
+  "faucets": ["https://winmar.tech/faucet"],
+  "infoURL": "https://winmar.tech"
 }, {
   "name": "Horizen Testnet",
   "chainId": 2651420,

@@ -3409,25 +3409,26 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Omni Testnet (Deprecated)",
-  "chain": "Omni",
-  "rpc": [],
-  "features": [{
-    "name": "EIP155"
-  }],
+  "name": "Farm Chain",
+  "chain": "FMC",
+  "rpc": ["https://rpc.fmcscan.com"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Omni",
-    "symbol": "OMNI",
+    "name": "Farm Coin",
+    "symbol": "FMC",
     "decimals": 18
   },
-  "infoURL": "https://docs.omni.network/",
-  "shortName": "omni_testnet_deprecated",
+  "infoURL": "https://fmcscan.com",
+  "shortName": "fmc",
   "chainId": 165,
   "networkId": 165,
-  "slip44": 1,
-  "explorers": [],
-  "status": "deprecated"
+  "redFlags": ["reusedChainId"],
+  "slip44": 60,
+  "explorers": [{
+    "name": "Farm Chain Explorer",
+    "url": "https://fmcscan.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Nomina",
   "chain": "Nomina",
@@ -25098,6 +25099,30 @@
     "standard": "none"
   }]
 }, {
+  "name": "YNX Testnet",
+  "chain": "YNX",
+  "icon": "ynx",
+  "rpc": ["https://evm.ynxweb4.com"],
+  "faucets": ["https://www.ynxweb4.com/dapp/faucet"],
+  "nativeCurrency": {
+    "name": "YNXT",
+    "symbol": "YNXT",
+    "decimals": 18
+  },
+  "infoURL": "https://ynxweb4.com",
+  "shortName": "ynxtest",
+  "chainId": 6423,
+  "networkId": 6423,
+  "slip44": 60,
+  "explorers": [{
+    "name": "YNX Explorer",
+    "url": "https://explorer.ynxweb4.com",
+    "standard": "EIP3091"
+  }],
+  "features": [{
+    "name": "EIP155"
+  }]
+}, {
   "name": "MIZUHIKI Testnet Awaji",
   "chain": "MIZU",
   "rpc": ["https://rpc.awaji.mizuhiki.io"],
@@ -42911,6 +42936,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Shark Network",
+  "chain": "SHARK",
+  "rpc": ["https://rpc.rpcshark.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Shark",
+    "symbol": "SHARK",
+    "decimals": 18
+  },
+  "infoURL": "https://swapshark.net",
+  "shortName": "shark",
+  "chainId": 88118,
+  "networkId": 88118,
+  "icon": "shark",
+  "explorers": [{
+    "name": "SharkScan",
+    "url": "https://sharkscan.app",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "InoAi",
   "chain": "INOAI",
   "faucets": [],
@@ -45769,6 +45814,30 @@
     "name": "ICPlaza",
     "url": "https://browsemainnet.ic-plaza.org/index",
     "standard": "none"
+  }]
+}, {
+  "name": "WheatCoin Mainnet",
+  "chain": "WHEAT",
+  "rpc": ["https://rpc.mizodevelopment.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WheatCoin",
+    "symbol": "WHEAT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://itzlalpekhlua.github.io/WheatCoin-Token/",
+  "shortName": "wheat",
+  "chainId": 153043,
+  "networkId": 153043,
+  "explorers": [{
+    "name": "WheatCoin Explorer",
+    "url": "https://explorer.mizodevelopment.com",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Odyssey Chain Mainnet",
@@ -52590,6 +52659,30 @@
   }, {
     "name": "EIP1559"
   }]
+}, {
+  "name": "Winmar Tech Chain",
+  "chain": "WTC",
+  "icon": "wtc",
+  "rpc": ["https://winmar.tech/rpc"],
+  "faucets": ["https://winmar.tech/faucet"],
+  "nativeCurrency": {
+    "name": "Winmar Tech Chain",
+    "symbol": "WTC",
+    "decimals": 18
+  },
+  "infoURL": "https://winmar.tech",
+  "shortName": "wtc",
+  "chainId": 2640162,
+  "networkId": 2640162,
+  "explorers": [{
+    "name": "Winmar Explorer",
+    "url": "https://winmar.tech/explorer",
+    "standard": "EIP3091"
+  }],
+  "features": [{
+    "name": "EIP155"
+  }],
+  "status": "active"
 }, {
   "name": "Horizen Testnet",
   "chain": "horizen",
