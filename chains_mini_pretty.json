@@ -9788,6 +9788,19 @@
   "faucets": [],
   "infoURL": "https://soneium.org"
 }, {
+  "name": "QMS",
+  "chainId": 1948,
+  "shortName": "qms",
+  "networkId": 1948,
+  "nativeCurrency": {
+    "name": "QMS",
+    "symbol": "QMS",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://qms.finance"
+}, {
   "name": "Bionix Testnet",
   "chainId": 1949,
   "shortName": "tbio",
@@ -13918,7 +13931,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://rpc.arrowrpc.com"],
+  "rpc": ["https://rpc.mainnet.chain.robinhood.com", "https://robinhood-rpc.publicnode.com", "wss://robinhood-rpc.publicnode.com", "https://rpc.arrowrpc.com"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain"
 }, {
@@ -20552,6 +20565,19 @@
   "faucets": ["https://faucet.trustivon.com"],
   "infoURL": "https://trustivon.com"
 }, {
+  "name": "QMS Testnet",
+  "chainId": 19480,
+  "shortName": "qmstest",
+  "networkId": 19480,
+  "nativeCurrency": {
+    "name": "QMS",
+    "symbol": "QMS",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://qms.finance"
+}, {
   "name": "SEC Testnet",
   "chainId": 19515,
   "shortName": "SEPt",
@@ -23265,7 +23291,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc"],
+  "rpc": ["https://rpc.testnet.chain.robinhood.com/rpc", "https://robinhood-sepolia-rpc.publicnode.com", "wss://robinhood-sepolia-rpc.publicnode.com"],
   "faucets": [],
   "infoURL": "https://docs.robinhood.com/chain/"
 }, {
