@@ -20188,6 +20188,32 @@
   "faucets": [],
   "infoURL": "https://airdao.io"
 }, {
+  "name": "Nagara",
+  "chainId": 16868,
+  "shortName": "ngrx",
+  "networkId": 16868,
+  "nativeCurrency": {
+    "name": "Nagara",
+    "symbol": "NGRX",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://nagara.network"
+}, {
+  "name": "Nagara Testnet",
+  "chainId": 16869,
+  "shortName": "tngrx",
+  "networkId": 16869,
+  "nativeCurrency": {
+    "name": "Nagara Testnet Token",
+    "symbol": "tNGRX",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.nagara.network", "wss://testnet.nagara.network"],
+  "faucets": ["https://bagi-bagi.nagara.network"],
+  "infoURL": "https://nagara.network"
+}, {
   "name": "IVAR Chain Testnet",
   "chainId": 16888,
   "shortName": "tivar",
@@ -34552,6 +34578,19 @@
   "rpc": ["https://rpc.testnet.torium.network", "wss://ws.testnet.torium.network"],
   "faucets": ["https://faucet.testnet.torium.network"],
   "infoURL": "https://torium.network"
+}, {
+  "name": "TWIX Mainnet",
+  "chainId": 1415006552,
+  "shortName": "twix",
+  "networkId": 1415006552,
+  "nativeCurrency": {
+    "name": "TWIX",
+    "symbol": "TWIX",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.twixchain.com"],
+  "faucets": [],
+  "infoURL": "https://twixchain.com"
 }, {
   "name": "Zephyr Testnet",
   "chainId": 1417429182,
