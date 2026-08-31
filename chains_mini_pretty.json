@@ -16366,6 +16366,19 @@
   "faucets": [],
   "infoURL": "https://drawchain.io/"
 }, {
+  "name": "WCAHT",
+  "chainId": 7789,
+  "shortName": "wcaht",
+  "networkId": 7789,
+  "nativeCurrency": {
+    "name": "WCAHT",
+    "symbol": "WCAHT",
+    "decimals": 18
+  },
+  "rpc": ["https://denvion.com/eth"],
+  "faucets": [],
+  "infoURL": "https://denvion.com"
+}, {
   "name": "DiamondzChain",
   "chainId": 7791,
   "shortName": "dzx",
@@ -26089,6 +26102,19 @@
   "rpc": ["https://rpc.omnicoin.net"],
   "faucets": [],
   "infoURL": "https://app.omnibazaar.com"
+}, {
+  "name": "PLUS Mainnet",
+  "chainId": 88088,
+  "shortName": "plus",
+  "networkId": 88088,
+  "nativeCurrency": {
+    "name": "PLUS",
+    "symbol": "PLUS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.plusmain.net", "https://plusmain.net/api/rpc"],
+  "faucets": [],
+  "infoURL": "https://plusmain.net"
 }, {
   "name": "Shark Network",
   "chainId": 88118,
