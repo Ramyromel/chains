@@ -15976,6 +15976,32 @@
   "faucets": ["https://faucet.zeuschainscan.io"],
   "infoURL": "https://testnet-explorer.zeuschainscan.io"
 }, {
+  "name": "Pocket Chain",
+  "chainId": 7258,
+  "shortName": "pckt",
+  "networkId": 7258,
+  "nativeCurrency": {
+    "name": "PCKT",
+    "symbol": "PCKT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://pocket.fi"
+}, {
+  "name": "Pocket Chain Testnet",
+  "chainId": 7259,
+  "shortName": "pckt-testnet",
+  "networkId": 7259,
+  "nativeCurrency": {
+    "name": "PCKT",
+    "symbol": "PCKT",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://pocket.fi"
+}, {
   "name": "XPLA Verse",
   "chainId": 7300,
   "shortName": "XPLAVERSE",
@@ -17717,6 +17743,19 @@
   "rpc": ["https://alphatestnet-evm-rpc.qubetics.work/"],
   "faucets": ["https://alphatestnet-explorer.qubetics.work/faucet"],
   "infoURL": "https://www.qubetics.com/"
+}, {
+  "name": "Lithosphere Mainnet",
+  "chainId": 9005,
+  "shortName": "litho",
+  "networkId": 9005,
+  "nativeCurrency": {
+    "name": "LITHO",
+    "symbol": "LITHO",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-mainnet.litho.ai"],
+  "faucets": [],
+  "infoURL": "https://docs.litho.ai"
 }, {
   "name": "Shido Testnet Block",
   "chainId": 9007,
@@ -21110,6 +21149,19 @@
   "rpc": ["https://testnet-rpc.dcpay.io"],
   "faucets": ["https://faucet.dcpay.io"],
   "infoURL": "https://dcpay.io"
+}, {
+  "name": "SushiiCoin",
+  "chainId": 21320,
+  "shortName": "shcx",
+  "networkId": 21320,
+  "nativeCurrency": {
+    "name": "SushiiCoin",
+    "symbol": "SHCX",
+    "decimals": 18
+  },
+  "rpc": ["https://coin.sushii.dev/evm"],
+  "faucets": [],
+  "infoURL": "https://coin.sushii.dev"
 }, {
   "name": "CENNZnet Azalea",
   "chainId": 21337,
@@ -29119,6 +29171,19 @@
   "faucets": ["https://faucet.datachain.network"],
   "infoURL": "https://datachain.network"
 }, {
+  "name": "Datachain Rope Testnet",
+  "chainId": 271829,
+  "shortName": "rope-testnet",
+  "networkId": 271829,
+  "nativeCurrency": {
+    "name": "DC FAT",
+    "symbol": "FAT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.erpc.datachain.network"],
+  "faucets": ["https://faucet.datachain.network"],
+  "infoURL": "https://datachain.network"
+}, {
   "name": "Nxy Area 51",
   "chainId": 272247,
   "shortName": "nxytest",
@@ -30834,6 +30899,19 @@
   "rpc": ["https://evm.testnet.nvnmchain.io", "wss://evm.testnet.nvnmchain.io/ws"],
   "faucets": ["https://faucet.testnet.nvnmchain.io"],
   "infoURL": "https://nvnmchain.io"
+}, {
+  "name": "WANNA Chain",
+  "chainId": 787878,
+  "shortName": "wanna",
+  "networkId": 787878,
+  "nativeCurrency": {
+    "name": "WANNA",
+    "symbol": "WANNA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.wannachain.com"],
+  "faucets": [],
+  "infoURL": "https://scan.wannachain.com"
 }, {
   "name": "Emeraldz",
   "chainId": 789789,
