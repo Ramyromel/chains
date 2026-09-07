@@ -591,6 +591,14 @@
     "format": "png"
   }]
 }, {
+  "name": "molibra",
+  "icons": [{
+    "url": "ipfs://QmQsqJ2omWZX8TYtft1euNVB8qcQvU8sZUYKRV9SgPuiRc",
+    "width": 64,
+    "height": 64,
+    "format": "svg"
+  }]
+}, {
   "name": "raptorchain_explorer",
   "icons": [{
     "url": "ipfs://QmQuvmiN6vM6Rqzqe1pMzDf8iZXqTtSeqCgGe5k5AyksDU",
@@ -1261,6 +1269,14 @@
     "url": "ipfs://QmT5UMzAftM4mHCtk4pWX4sqyJCki88APbqECywrhJp91Q",
     "width": 324,
     "height": 82,
+    "format": "png"
+  }]
+}, {
+  "name": "rinn",
+  "icons": [{
+    "url": "ipfs://bafkreie4lvhs4d3cscsppx7biyogcz3bgewvftkga7y2y3le4hqk6u6yve",
+    "width": 384,
+    "height": 384,
     "format": "png"
   }]
 }, {
