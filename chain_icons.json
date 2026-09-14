@@ -5285,6 +5285,14 @@
     "format": "png"
   }]
 }, {
+  "name": "bighive",
+  "icons": [{
+    "url": "ipfs://Qme7zkCnNpG849A3ewKGn3VmxvWbKqbDQk44VpntLYBHZe",
+    "width": 1600,
+    "height": 1600,
+    "format": "jpg"
+  }]
+}, {
   "name": "emoney",
   "icons": [{
     "url": "ipfs://bafkreigo4gtboztftjdnbvy2rb2ku2gxxbhm4iwutzgnzhvden3vcbsqui",
