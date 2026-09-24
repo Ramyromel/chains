@@ -2660,7 +2660,7 @@
     "symbol": "VC",
     "decimals": 18
   },
-  "rpc": ["https://vinufoundation-rpc.com"],
+  "rpc": ["https://testnet-rpc.vinuchain.org"],
   "faucets": [],
   "infoURL": "https://vinuchain.org"
 }, {
@@ -8578,6 +8578,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://polygon.technology/solutions/polygon-zkevm/"
+}, {
+  "name": "BlockDAG",
+  "chainId": 1404,
+  "shortName": "bdag",
+  "networkId": 1404,
+  "nativeCurrency": {
+    "name": "BlockDAG",
+    "symbol": "BDAG",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bdagexplorer.com/"],
+  "faucets": [],
+  "infoURL": "https://bdagexplorer.com"
 }, {
   "name": "Silicon zkEVM Sepolia Testnet(Deprecated)",
   "chainId": 1414,
@@ -30522,6 +30535,19 @@
   "rpc": ["https://rpc.hoodi.ethpandaops.io"],
   "faucets": ["https://faucet.hoodi.ethpandaops.io", "https://hoodi-faucet.pk910.de/"],
   "infoURL": "https://hoodi.ethpandaops.io"
+}, {
+  "name": "PeerCash Testnet",
+  "chainId": 563321,
+  "shortName": "pctest",
+  "networkId": 563321,
+  "nativeCurrency": {
+    "name": "PeerCash",
+    "symbol": "PEER",
+    "decimals": 18
+  },
+  "rpc": ["https://testrpc.peercash.io"],
+  "faucets": [],
+  "infoURL": "https://peercash.io"
 }, {
   "name": "ONE Chain Testnet",
   "chainId": 612044,
