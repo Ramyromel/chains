@@ -8748,6 +8748,19 @@
   "faucets": [],
   "infoURL": "https://zkbase.org/"
 }, {
+  "name": "CRYMAD Chain",
+  "chainId": 1475,
+  "shortName": "cmxr",
+  "networkId": 1475,
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.cmxofficial.com"],
+  "faucets": [],
+  "infoURL": "https://cmxofficial.com"
+}, {
   "name": "Vana",
   "chainId": 1480,
   "shortName": "vana",
@@ -16222,6 +16235,19 @@
   "rpc": ["https://l2.rarimo.com", "wss://wss.l2.rarimo.com"],
   "faucets": [],
   "infoURL": "https://rarimo.com"
+}, {
+  "name": "CRYMAD Chain L2",
+  "chainId": 7373,
+  "shortName": "cmxr-l2",
+  "networkId": 7373,
+  "nativeCurrency": {
+    "name": "CryMadX",
+    "symbol": "CMX-R",
+    "decimals": 18
+  },
+  "rpc": ["https://rpcl2.cmxofficial.com"],
+  "faucets": [],
+  "infoURL": "https://cmxofficial.com"
 }, {
   "name": "TokClaw Blockchain",
   "chainId": 7447,
@@ -24842,6 +24868,19 @@
   "faucets": [],
   "infoURL": "https://tiktrix.gg"
 }, {
+  "name": "FractalAI",
+  "chainId": 62124,
+  "shortName": "frac",
+  "networkId": 62124,
+  "nativeCurrency": {
+    "name": "Fractal",
+    "symbol": "FRAC",
+    "decimals": 18
+  },
+  "rpc": ["https://api.fractalai.net.co"],
+  "faucets": [],
+  "infoURL": "https://fractalai.net.co"
+}, {
   "name": "Citrea Devnet",
   "chainId": 62298,
   "shortName": "citrea-devnet",
@@ -25501,9 +25540,9 @@
     "symbol": "SMN",
     "decimals": 18
   },
-  "rpc": ["https://seleman.monarcaproject.com/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://seleman-ws.monarcaproject.com"],
-  "faucets": ["https://seleman.monarcaproject.com/trust-wallet"],
-  "infoURL": "https://seleman.monarcaproject.com/seleman-chain"
+  "rpc": ["https://explorer.primevertexlabs.com.mx/rpc", "https://seleman-edge.mineriafjs.workers.dev/rpc", "wss://explorer-ws.primevertexlabs.com.mx"],
+  "faucets": ["https://explorer.primevertexlabs.com.mx/trust-wallet", "https://explorer.primevertexlabs.com.mx/faucet"],
+  "infoURL": "https://explorer.primevertexlabs.com.mx/seleman-chain"
 }, {
   "name": "NV-CHAIN",
   "chainId": 73790,
