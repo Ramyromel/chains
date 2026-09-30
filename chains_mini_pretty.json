@@ -11257,6 +11257,19 @@
   "faucets": ["https://faucet.clubmos.com"],
   "infoURL": "https://www.clubmos.com"
 }, {
+  "name": "Moca Chain Mainnet",
+  "chainId": 2288,
+  "shortName": "moca",
+  "networkId": 2288,
+  "nativeCurrency": {
+    "name": "MOCA",
+    "symbol": "MOCA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mocachain.org"],
+  "faucets": [],
+  "infoURL": "https://mocachain.org"
+}, {
   "name": "BOMB Chain",
   "chainId": 2300,
   "shortName": "bomb",
@@ -14598,18 +14611,18 @@
   "faucets": ["https://faucet.seismictest.net"],
   "infoURL": "https://seismic.systems"
 }, {
-  "name": "Moca Chain Testnet",
+  "name": "Moca Chain Devnet",
   "chainId": 5151,
-  "shortName": "MOCA",
+  "shortName": "moca-devnet",
   "networkId": 5151,
   "nativeCurrency": {
     "name": "MOCA",
     "symbol": "MOCA",
     "decimals": 18
   },
-  "rpc": ["https://testnet-rpc.mechain.tech"],
-  "faucets": ["https://faucet.mechain.tech"],
-  "infoURL": "https://mechain.tech"
+  "rpc": ["https://rpc.devnet-2.mocachain.dev"],
+  "faucets": [],
+  "infoURL": "https://mocachain.org"
 }, {
   "name": "Bahamut",
   "chainId": 5165,
@@ -25037,6 +25050,19 @@
   "faucets": [],
   "infoURL": "https://kuma.bid"
 }, {
+  "name": "Midas Testnet",
+  "chainId": 64327,
+  "shortName": "midas-testnet",
+  "networkId": 64327,
+  "nativeCurrency": {
+    "name": "Midas",
+    "symbol": "MIDS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.onmidas.xyz"],
+  "faucets": ["https://onmidas.xyz/developers#faucet"],
+  "infoURL": "https://onmidas.xyz"
+}, {
   "name": "CratD2C Testnet Deprecated",
   "chainId": 65349,
   "shortName": "cratd2c-testnet-deprecated",
@@ -26453,6 +26479,19 @@
   "rpc": ["https://rpc.rpcshark.com"],
   "faucets": [],
   "infoURL": "https://swapshark.net"
+}, {
+  "name": "Atoshi Original Mainnet",
+  "chainId": 88188,
+  "shortName": "atmain",
+  "networkId": 88188,
+  "nativeCurrency": {
+    "name": "Atoshi",
+    "symbol": "ATOS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.atoshinetwork.xyz", "https://explorer.atoshinetwork.xyz/rpc"],
+  "faucets": [],
+  "infoURL": "https://explorer.atoshinetwork.xyz"
 }, {
   "name": "InoAi",
   "chainId": 88559,
@@ -28066,6 +28105,19 @@
   "faucets": [],
   "infoURL": "https://rphxscan.com"
 }, {
+  "name": "Mersennet Testnet",
+  "chainId": 131071,
+  "shortName": "mrsnt",
+  "networkId": 131071,
+  "nativeCurrency": {
+    "name": "Mersennet",
+    "symbol": "MRSN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.mersennet.com", "wss://rpc.mersennet.com"],
+  "faucets": ["https://faucet.mersennet.com"],
+  "infoURL": "https://mersennet.com"
+}, {
   "name": "Odyssey Chain (Testnet)",
   "chainId": 131313,
   "shortName": "DIONE",
@@ -29105,6 +29157,19 @@
   "rpc": ["https://testnet.deeplnetwork.org"],
   "faucets": ["https://faucet.deeplnetwork.org"],
   "infoURL": "https://deeplnetwork.org"
+}, {
+  "name": "Moca Chain Testnet",
+  "chainId": 222888,
+  "shortName": "moca-testnet",
+  "networkId": 222888,
+  "nativeCurrency": {
+    "name": "MOCA",
+    "symbol": "MOCA",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.mocachain.org"],
+  "faucets": ["https://faucet.mocachain.org"],
+  "infoURL": "https://mocachain.org"
 }, {
   "name": "B20 Testnet",
   "chainId": 223344,
